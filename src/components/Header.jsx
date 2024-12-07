@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="header">
-      <h1>RBAC Dashboard</h1>
+      <h1>Role Based Access Hub</h1>
     </header>
   );
 };
