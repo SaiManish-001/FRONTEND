@@ -1,0 +1,74 @@
+.role-management {
+  width: 100%;
+}
+
+.add-role {
+  margin-bottom: 20px;
+}
+
+.add-role input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.permissions-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.permissions-checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-role button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-role button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #f0f0f0;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button:nth-child(2) {
+  background-color: #dc3545;
+}
+
+button:nth-child(2):hover {
+  background-color: #c82333;
+}

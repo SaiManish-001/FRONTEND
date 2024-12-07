@@ -1,0 +1,49 @@
+.permissions-management {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .permissions-table-container {
+    margin-bottom: 20px;
+  }
+  
+  .permissions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .permissions-table th,
+  .permissions-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .permissions-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .add-permission {
+    margin-top: 20px;
+  }
+  
+  .add-permission input {
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-permission button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-permission button:hover {
+    background-color: #218838;
+  }
+  
